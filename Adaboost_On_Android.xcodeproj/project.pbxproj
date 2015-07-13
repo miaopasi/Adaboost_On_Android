@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		84CA71561B53629D00450A39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA71551B53629D00450A39 /* main.cpp */; };
+		84CA716D1B5362AD00450A39 /* AdaBooster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA715C1B5362AD00450A39 /* AdaBooster.cpp */; };
+		84CA716E1B5362AD00450A39 /* CrossValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA715F1B5362AD00450A39 /* CrossValidator.cpp */; };
+		84CA716F1B5362AD00450A39 /* FeatureParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA71611B5362AD00450A39 /* FeatureParser.cpp */; };
+		84CA71701B5362AD00450A39 /* FeatureVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA71631B5362AD00450A39 /* FeatureVector.cpp */; };
+		84CA71711B5362AD00450A39 /* sorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA71651B5362AD00450A39 /* sorting.cpp */; };
+		84CA71721B5362AD00450A39 /* StrongClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA71671B5362AD00450A39 /* StrongClassifier.cpp */; };
+		84CA71731B5362AD00450A39 /* TrainingData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA71691B5362AD00450A39 /* TrainingData.cpp */; };
+		84CA71741B5362AD00450A39 /* WeakClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CA716B1B5362AD00450A39 /* WeakClassifier.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,23 @@
 /* Begin PBXFileReference section */
 		84CA71521B53629D00450A39 /* Adaboost_On_Android */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adaboost_On_Android; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CA71551B53629D00450A39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84CA715C1B5362AD00450A39 /* AdaBooster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdaBooster.cpp; sourceTree = "<group>"; };
+		84CA715D1B5362AD00450A39 /* AdaBooster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaBooster.h; sourceTree = "<group>"; };
+		84CA715E1B5362AD00450A39 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		84CA715F1B5362AD00450A39 /* CrossValidator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrossValidator.cpp; sourceTree = "<group>"; };
+		84CA71601B5362AD00450A39 /* CrossValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossValidator.h; sourceTree = "<group>"; };
+		84CA71611B5362AD00450A39 /* FeatureParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FeatureParser.cpp; sourceTree = "<group>"; };
+		84CA71621B5362AD00450A39 /* FeatureParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureParser.h; sourceTree = "<group>"; };
+		84CA71631B5362AD00450A39 /* FeatureVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FeatureVector.cpp; sourceTree = "<group>"; };
+		84CA71641B5362AD00450A39 /* FeatureVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureVector.h; sourceTree = "<group>"; };
+		84CA71651B5362AD00450A39 /* sorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sorting.cpp; sourceTree = "<group>"; };
+		84CA71661B5362AD00450A39 /* sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorting.h; sourceTree = "<group>"; };
+		84CA71671B5362AD00450A39 /* StrongClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrongClassifier.cpp; sourceTree = "<group>"; };
+		84CA71681B5362AD00450A39 /* StrongClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongClassifier.h; sourceTree = "<group>"; };
+		84CA71691B5362AD00450A39 /* TrainingData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrainingData.cpp; sourceTree = "<group>"; };
+		84CA716A1B5362AD00450A39 /* TrainingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingData.h; sourceTree = "<group>"; };
+		84CA716B1B5362AD00450A39 /* WeakClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeakClassifier.cpp; sourceTree = "<group>"; };
+		84CA716C1B5362AD00450A39 /* WeakClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakClassifier.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +82,23 @@
 		84CA71541B53629D00450A39 /* Adaboost_On_Android */ = {
 			isa = PBXGroup;
 			children = (
+				84CA715C1B5362AD00450A39 /* AdaBooster.cpp */,
+				84CA715D1B5362AD00450A39 /* AdaBooster.h */,
+				84CA715E1B5362AD00450A39 /* CMakeLists.txt */,
+				84CA715F1B5362AD00450A39 /* CrossValidator.cpp */,
+				84CA71601B5362AD00450A39 /* CrossValidator.h */,
+				84CA71611B5362AD00450A39 /* FeatureParser.cpp */,
+				84CA71621B5362AD00450A39 /* FeatureParser.h */,
+				84CA71631B5362AD00450A39 /* FeatureVector.cpp */,
+				84CA71641B5362AD00450A39 /* FeatureVector.h */,
+				84CA71651B5362AD00450A39 /* sorting.cpp */,
+				84CA71661B5362AD00450A39 /* sorting.h */,
+				84CA71671B5362AD00450A39 /* StrongClassifier.cpp */,
+				84CA71681B5362AD00450A39 /* StrongClassifier.h */,
+				84CA71691B5362AD00450A39 /* TrainingData.cpp */,
+				84CA716A1B5362AD00450A39 /* TrainingData.h */,
+				84CA716B1B5362AD00450A39 /* WeakClassifier.cpp */,
+				84CA716C1B5362AD00450A39 /* WeakClassifier.h */,
 				84CA71551B53629D00450A39 /* main.cpp */,
 			);
 			path = Adaboost_On_Android;
@@ -118,7 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CA71721B5362AD00450A39 /* StrongClassifier.cpp in Sources */,
+				84CA71711B5362AD00450A39 /* sorting.cpp in Sources */,
+				84CA716E1B5362AD00450A39 /* CrossValidator.cpp in Sources */,
 				84CA71561B53629D00450A39 /* main.cpp in Sources */,
+				84CA71741B5362AD00450A39 /* WeakClassifier.cpp in Sources */,
+				84CA716D1B5362AD00450A39 /* AdaBooster.cpp in Sources */,
+				84CA716F1B5362AD00450A39 /* FeatureParser.cpp in Sources */,
+				84CA71701B5362AD00450A39 /* FeatureVector.cpp in Sources */,
+				84CA71731B5362AD00450A39 /* TrainingData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
